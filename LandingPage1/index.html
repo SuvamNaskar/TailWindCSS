@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Open Basketball</title>
+    <title>Nirdesh: The Tech-Festa</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -14,8 +14,10 @@
                 lg: '976px',
                 xl: '1440px'
             },
-            colors: {
-                mainColor: '#f0050f'
+            extends:{
+                colors: {
+                    
+                }
             }
           }
         }
@@ -28,16 +30,30 @@
         <div class="flex items-center justify-between">
             <!-- Title -->
             <div class="pt-2">
-                <h1 class="text-2xl">OPEN BASKETBALL</h1>
+                <h1 class="text-2xl">NIRDESH</h1>
             </div>
             <!-- Menu items -->
             <div class="hidden md:flex space-x-6">
-                <a href="#">Pricing</a>
-                <a href="#">Timings</a>
-                <a href="#">Policy</a>
-                <a href="#">Support</a>
+                <a href="#" class="hover:text-yellow-400 hover:text-xl">Events</a>
+                <a href="#" class="hover:text-yellow-400 hover:text-xl">About Us</a>
+                <a href="#" class="hover:text-yellow-400 hover:text-xl">Contact</a>
+                <a href="#" class="hover:text-yellow-400 hover:text-xl">Leaderboard</a>
             </div>
+            <!-- reg button -->
+            <a href="#" class="hidden md:block p-3 px-6 pt-2 text-white bg-yellow-400 rounded-full baseline hover:bg-yellow-300 hover:text-gray-700">REGISTER</a>
         </div>
     </nav>
+    <!-- Hero Section -->
+    <section id="hero">
+        <!-- Flex Container -->
+        <div class="container flex flex-col-reverse md:flex-row items-center px-6 mx-auto mt-10 space-y-0md:space-y-0">
+            <!-- Left Item -->
+            <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+                <h2 class="max-w-md text-4xl font-bold text-center md:text-center md:text-5xl md:text-left">
+                    Get Ready to get an amazing experience of Tech-Fest with Nirdesh
+                </h1>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
